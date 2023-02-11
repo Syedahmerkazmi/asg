@@ -1,0 +1,31 @@
+.container-fluid,.container
+{
+    background-color: gray;
+    border: black 1px solid;
+}
+.head
+{
+   font-size: xx-large; 
+}
+.heading
+{text-align: center;
+font-size: xx-large;
+}
+
+.w-100
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+}
+.nav-link
+{
+    text-align: center;
+}
+@media  (min-width:992px )
+{
+   .nav-item 
+   {
+    display: none;
+   }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=0">
+    <title>module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="hello.css">
+
+</head>
+<body>
+
+    
+    <header>
+    <div class="container-fluid ">
+        
+        <nav class="navbar   navbar-default  navbar-expand-lg ">
+            <a class="navbar-brand " href="#">Food,LLC</a>
+            <button class="navbar-toggler" type="button"  >
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav    ">
+              <li class="nav-item   ">
+                <a class="nav-link" href="#">chicken  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beef</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sushi</a>
+              </li>
+                </div>
+                </nav>
+
+                <script>
+                   
+                    var togglerButton = document.querySelector('.navbar-toggler');
+                    
+                 
+                    var dropdownMenu = document.querySelector('.navbar-collapse');
+                    
+                    
+                    function togglerDropdownMenu() {
+                      if (dropdownMenu.classList.contains('collapse')) {
+                        dropdownMenu.classList.remove('collapse');
+                      } else {
+                        dropdownMenu.classList.add('collapse');
+                      }
+                    }
+                    
+                   
+                    togglerButton.addEventListener('click', togglerDropdownMenu);
+                  </script>
+
+
+                
+    </div>
+ <div class="heading">Menu</div>
+
+    <div class="container">
+        <div class="row">
+            <div class="w-100">chicken</div>
+            <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum magni et tempora ipsum sequi vero quis in laborum at, sunt eos commodi! Quidem, provident sunt sit repellat explicabo pariatur consequuntur, laboriosam optio expedita ipsum beatae! Quas cupiditate quisquam autem itaque vero? Corporis sit placeat, magnam necessitatibus ratione nemo vitae a exercitationem quidem sequi sunt voluptatum iste eius dolore recusandae. Magnam, sit. Quia, natus repellat! Possimus, sunt esse est in voluptate illum repudiandae nisi. Culpa repellendus, veniam iusto voluptatum repudiandae dolorum modi quis sed ipsum sunt suscipit voluptas beatae velit incidunt necessitatibus molestiae. Deserunt inventore debitis expedita aut dolore tempore totam!.</div>
+            <div class="w-100">Beef</div>
+            <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet tempore enim sequi distinctio corrupti accusamus maiores fugit ex aperiam nulla eius laboriosam dolor eligendi commodi animi suscipit, voluptatem repudiandae, numquam nemo blanditiis. Ea amet obcaecati fugiat! Neque, minima, explicabo deleniti ab iusto repellat exercitationem itaque voluptas repudiandae quibusdam adipisci corrupti eum quasi labore quas totam officiis odit, ex nemo. Modi repellat commodi nulla ex ut rerum accusamus dolorum quae voluptatum ipsum, possimus magnam doloribus officia, distinctio necessitatibus fugiat ducimus optio dolorem? Fuga, nihil. Natus at, cumque porro, modi repellat odit suscipit quo neque eum temporibus a nulla inventore praesentium fuga? ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas accusantium voluptates perspiciatis ducimus aliquam harum modi, temporibus aspernatur dolore.</div>
+            <div class="w-100">Sushi</div>
+            <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur mollitia doloribus totam laudantium praesentium, quae vel architecto doloremque voluptas laborum quaerat id ipsa consectetur, placeat veniam tempora quibusdam nihil alias optio ut quasi saepe animi voluptatibus non. Ad eum qui iusto minus, illum quae reprehenderit quisquam molestiae, quam ratione architecto autem alias, nulla porro eveniet incidunt totam? Dolores alias rerum libero doloribus harum quam. Magni facilis odit fuga quam? Assumenda nulla doloremque illo dolor nobis! Atque neque ad necessitatibus voluptatibus perspiciatis dignissimos facilis voluptas veritatis animi asperiores repellat vitae quis velit minima nostrum dolore voluptates, voluptatum dolorem? Animi, blanditiis modi.ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas accusantium voluptates perspiciatis ducimus aliquam harum modi, temporibus aspernatur dolore.</div>
+        </div>
+    </div>
+
+</header>
+</body>
+</html>
