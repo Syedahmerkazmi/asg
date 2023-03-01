@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="asg1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1 Asg</title>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">\
+    <script src="/angular.min.js"></script>
+    <script src="module1.js"></script>
+    </head>
+
+    <body>
+                        <div class="containter text-center" ng-controller="item">
+                            <h1>Lunch Checker </h1><br>
+                            <input type="text" style='width: 30%; ' class='text-center'placeholder="Enter comma-separated items" ng-model="items"  required ><br><br>
+                            <button  class="btn btn-primary" ng-click="mysplit()" >Check If Too Much</button>
+                            <p ng-show="message">{{ message }}</p>
+
+                            
+
+                        </div>
+
+    </body>
